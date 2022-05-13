@@ -15,8 +15,6 @@ eureka:
 
 zuul:
   retryable: true
-#  可以设置 zuul 不过滤这些协议头
-#  sensitive-headers: Cookie, Set-Cookie, Authorization
 
 ribbon:
   ConnectTimeout: 1000
